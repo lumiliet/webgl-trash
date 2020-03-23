@@ -1,0 +1,17 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "run-p browser-sync ts:watch",
+    "browser-sync": "browser-sync --watch --files dist",
+    "ts:watch": "tsc --watch"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gl-matrix": "^3.2.1",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^3.8.3"
+  }
+}
